@@ -1,0 +1,22 @@
+{
+  "name": "TDMaker_Tool",
+  "description": "",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "128": "/img/icon.png", 
+    "16": "/img/icon.png",
+    "48": "/img/icon.png"
+  },
+  "content_scripts": [ {
+    "all_frames": false,
+    "js": [ "tdm.js" ],
+    "matches": [ "http://*/*", "https://*/*" ],
+    "run_at": "document_end"
+  } ],
+  "homepage_url": "https://maohupi.riarock.com/web/tool/tdmaker/index.html",
+  "incognito": "spanning",
+  "omnibox": {
+     "keyword": "tdmaker"
+  }
+}
