@@ -1,7 +1,7 @@
 let i = 0, 
 data = ['webetextbook.knsh.com.tw/EbookViewer'];
-for(d in data){
-	if(location.href.search(d) > -1){
+for(let j = 0; j < data.length; j++){
+	if(location.href.search(data[j]) > -1){
 		i++;
 	}
 }
@@ -45,7 +45,7 @@ if(i > 0){
 		}, 
 		'open':function(){
 			if(location.href.search('webetextbook.knsh.com.tw') > -1){
-				let img = \`https://storage.googleapis.com/material_storage_1/WebEbook/\${NowEbook}/Resource/01_page/\${this.ljust((NowPage+1).toString(),2,'0')}.png\`, 
+				let img = \`https://storage.googleapis.com/material_storage_1/WebEbook/\${NowEbook}/Resource/\${AllPageResXml[NowPage].querySelector('background').innerHTML.split('<![CDATA[')[1].split(']]>')[0]}\`, 
 				name = \`\${NowEbook} p.\${NowPage+1}\`;
 				window.open(\`https://maohupi.riarock.com/web/tool/tdmaker/index.html?!type;=!link;&!img;=!\${img};&!name;=!\${name};\`);
 			}
