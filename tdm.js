@@ -8,7 +8,7 @@ for(let j = 0; j < data.length; j++){
 if(i > 0){
 	const script = document.createElement('script'), 
 	button = document.createElement('button');
-	button.style.background = 'red';
+	button.style.background = '#ff5252';
 	button.style.height = '2vw';
 	button.style.width = '2vw';
 	button.style.position = 'fixed';
