@@ -1,1 +1,15 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103.73303" height="102.26788" viewBox="0,0,103.73303,102.26788"><defs><radialGradient cx="240" cy="180" r="51.86652" gradientUnits="userSpaceOnUse" id="color-1"><stop offset="0" stop-color="#4a4a4a"/><stop offset="1" stop-color="#4a4a4a" stop-opacity="0"/></radialGradient></defs><g transform="translate(-188.13348,-128.86606)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M188.13348,180c0,-28.2405 23.22142,-51.13394 51.86652,-51.13394c28.64509,0 51.86652,22.89344 51.86652,51.13394c0,28.2405 -23.22142,51.13394 -51.86652,51.13394c-28.64509,0 -51.86652,-22.89344 -51.86652,-51.13394z" fill="url(#color-1)"/><path d="M197.24175,180c0,-23.28119 19.14352,-42.15432 42.75825,-42.15432c23.61473,0 42.75825,18.87313 42.75825,42.15432c0,23.28119 -19.14352,42.15432 -42.75825,42.15432c-23.61473,0 -42.75825,-18.87313 -42.75825,-42.15432z" fill="#ffffff"/><path d="M202.93441,180c0,-20.47076 16.59483,-37.06559 37.06559,-37.06559c20.47076,0 37.06559,16.59483 37.06559,37.06559c0,20.47076 -16.59483,37.06559 -37.06559,37.06559c-20.47076,0 -37.06559,-16.59483 -37.06559,-37.06559z" fill="#ff0000"/></g></g></svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103.73303" height="102.26788" viewBox="0,0,103.73303,102.26788">
+	<defs>
+		<radialGradient cx="240" cy="180" r="51.86652" gradientUnits="userSpaceOnUse" id="color-1">
+			<stop offset="0" stop-color="#4a4a4a" />
+			<stop offset="1" stop-color="#4a4a4a" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<g transform="translate(-188.13348,-128.86606)">
+		<g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal">
+			<path d="M188.13348,180c0,-28.2405 23.22142,-51.13394 51.86652,-51.13394c28.64509,0 51.86652,22.89344 51.86652,51.13394c0,28.2405 -23.22142,51.13394 -51.86652,51.13394c-28.64509,0 -51.86652,-22.89344 -51.86652,-51.13394z" fill="url(#color-1)" />
+			<path d="M197.24175,180c0,-23.28119 19.14352,-42.15432 42.75825,-42.15432c23.61473,0 42.75825,18.87313 42.75825,42.15432c0,23.28119 -19.14352,42.15432 -42.75825,42.15432c-23.61473,0 -42.75825,-18.87313 -42.75825,-42.15432z" fill="#ffffff" />
+			<path d="M202.93441,180c0,-20.47076 16.59483,-37.06559 37.06559,-37.06559c20.47076,0 37.06559,16.59483 37.06559,37.06559c0,20.47076 -16.59483,37.06559 -37.06559,37.06559c-20.47076,0 -37.06559,-16.59483 -37.06559,-37.06559z" fill="#ff5252" />
+		</g>
+	</g>
+</svg>
